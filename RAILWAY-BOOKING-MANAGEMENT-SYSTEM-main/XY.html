@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet"  href="css1.css">
+<div class="booking">
+
+         <section>
+            
+ 
+  <h2 class="head1"   >Search your ticket</h2>
+            
+<form> <!-- abhinandan-->
+           
+<ul>
+               
+
+   
+
+<label><b>From</b></label> <br>
+        
+    <select name="place1">
+                
+ <option value="" disabled selected hidden>
+Choose Place...</option>
+<option value="Goa">Goa</option>
+                <option value="Malvan">Malvan</option>
+                <option value="Shimla">Shimla</option>
+            </select><br><br>
+
+<label><b>To</b></label> <br>
+        
+    <select name="place1">
+                
+ <option value="" disabled selected hidden>Choose Place...</option>
+<option value="Goa">Goa</option>
+                <option value="Malvan">Malvan</option>
+                <option value="Shimla">Shimla</option>
+            </select><br><br>
+
+        
+<b class="fsize">  Date&emsp;<input type="Date" placeholder="dd-mm-yy">  </b> 
+<br>  <br>
+               
+<label class="fsize"><strong> Class </strong> </label>
+                   <select id="class" name="class">
+                   
+ <option value="select">SELECT</option>    
+                    <option value="1AC">1AC</option>
+                    
+<option value="2AC">2AC</option>
+                   
+ <option value="3AC">3AC</option>
+                     
+<option value="Sleeper">Sleeper</option>
+                     <option value="Chair">Chair</option>
+ <br> 
+                    
+</select>
+              
+           
+</ul>
+            
+</form>
+            
+         
+ <button class="submit" type="button" onclick="trainB()">Find Trains 
+</button>
+
+    
+<div class="form-popup" id="bookTrain">
+   
+ <div class="popup">
+ 
+   
+    
+</div> 
+</div>
